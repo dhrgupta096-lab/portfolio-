@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Arcade | Dhruv</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <h1>Arcade Mode 🎮</h1>
+  <a href="index.html">Home</a>
+</nav>
+
+<section class="glass">
+  <h2>Reaction Speed Challenge</h2>
+  <button id="reaction-btn">Wait...</button>
+  <p id="result"></p>
+</section>
+
+<section class="glass">
+  <h2>Click Counter Game</h2>
+  <button onclick="clickGame()">Click Me</button>
+  <p id="clickScore">Score: 0</p>
+</section>
+
+<script src="js/game.js"></script>
+</body>
+</html>
